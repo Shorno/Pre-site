@@ -1,39 +1,83 @@
-.my-bg-photo {
-  background: url('images/banner-bg.jpg') no-repeat;
-  background-size: cover;
-  background-position: center center;
-  position: relative;
+html{
+  background-color: rgb(86, 155, 86);
 }
-
-.my-bg-photo * {
-  position: relative;
-  z-index: 10;
+.container{
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto ;
+  background-color: whitesmoke;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
 }
-
-.my-bg-photo:before {
-  content: " ";
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #000;
-  opacity: .65;
+.mycontent{
+  border-top: 1px solid rgb(204, 212, 195);
+  border-bottom: 1px solid rgb(168, 197, 175);
 }
-
-.my-custom-container {
-  max-width: 800px;
+.main-area{
+  width: 65%;
+  float: left ;
+  padding-right: 40px;
+  box-sizing: border-box;
 }
-
-.accordion .btn-link:focus {
-  box-shadow: none;
+.sidebar{
+  width: 35%;
+  float: right;
+  background-color: rgb(201, 214, 174);
+  padding: 20px 40px ;
+  box-sizing: border-box;
+  font size: 90%;
 }
-
-.my-drawing {
-  transition: all .33s ease-out;
+.group::before,
+.group::after{
+  content: "";
+  display: table;
+  
 }
-
-.my-drawing:hover {
-  transform: scale(1.054) rotate(15deg);
+.group::after{
+  clear: both;
 }
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+  padding-top: 20px;
+  color: rgb(86, 155, 86);
+}
+header h1{
+  margin: 0;
+}
+header p {
+  margin: 0;
+}
+footer{
+  text-align: center;
+  color: #999;
+  font-size: 90%;
+  padding-bottom: 20px;
+}
+/* site navigation */
+.site-nav a:hover{
+  background-color:rgb(201, 214, 174) ;
+}
+.site-nav a{
+  text-decoration: none;
+  display: block;
+  color:rgb(86, 155, 86);
+  padding: 5px 10px;
+  border: 3px solid rgb(201, 214, 174);
+  margin-bottom: 5px;
+}
+.site-nav{
+  margin-top: 20px;
+}
+.site-nav ul{
+  margin: 0;
+  padding: 0;
+}
+.site-nav li{
+  list-style: none;
+  float: left;
+  margin: 5px;
+}
+/* navigations ends */

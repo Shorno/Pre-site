@@ -1,51 +1,44 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Cool Website</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous" />
-    <link rel="stylesheet" href="custom.css" />
-  </head>
-  <body>
-    <div class="my-bg-photo bg-secondary text-white py-5 text-center shadow">
-      <h1 class="display-4">My Cool Website</h1>
-      <p class="lead mb-0">A super interesting place on the web.</p>
-    </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>This is Website title</h1>
+      <p>Text is included here</p>
 
-    <div class="container my-custom-container pt-3">
-      <nav class="mb-3">
-        <ul class="nav nav-tabs justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="animals.html">Animals</a>
-          </li>
+      <nav class="site-nav">
+        <ul class="group">
+            <li> <a href="#">Home</a></li>
+          <li> <a href="#">Portfolio</a></li>
+          <li> <a href="#">About</a></li>
+          <li> <a href="#">Contact Us </a></li>
         </ul>
       </nav>
-
-      <div class="row">
-        <div class="col-md-7">
-          <h1>Hey, welcome!</h1>
-          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ratione inventore, quae modi voluptatem odit labore molestias cupiditate voluptas velit recusandae nisi neque, odio ullam ea libero quo sed praesentium.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid dolorum autem fuga temporibus architecto, numquam repellendus commodi minus excepturi. Voluptatum minima impedit inventore. Ipsum, voluptatem veritatis! Odio quod quaerat atque.</p>
-          <a href="about.html" class="btn btn-primary btn-lg">Read Our Story</a>
+    </header>
+    <div class="mycontent group">
+    
+        <div class="main-area">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore asperiores officiis, corrupti, itaque, vel iste sunt impedit illum beatae id cumque tenetur error laborum molestiae cupiditate saepe iusto molestias expedita!
+            Dolore error cupiditate maiores libero aperiam dignissimos dolorum aliquid culpa, reiciendis eligendi incidunt, dolorem aliquam fugit quod sint? Possimus fugit quis illo provident ut earum suscipit saepe iure hic voluptatibus.
+            Ad sapiente perspiciatis, et veniam, omnis quo labore eos voluptatem enim debitis neque deserunt error dolorum a necessitatibus voluptas! Non error quibusdam eaque modi iste eveniet ullam earum a magnam!
+            Hic deleniti odit inventore fuga minima placeat, sapiente eius rem cumque, eum laboriosam provident vitae expedita debitis commodi dolorum pariatur ut, fugit doloribus recusandae ad voluptas non dolore. Eius, animi.</p> 
         </div>
-        <div class="col-md-5 text-center pt-5">
-          <img src="images/cat.svg" class="my-drawing img-fluid" alt="A drawing of a cat." />
-        </div>
-      </div>
+        
+        <aside class="sidebar">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex reprehenderit sint a voluptate, ipsum perspiciatis repellat modi est quasi, explicabo neque officia! Suscipit nemo porro voluptates sit itaque fuga saepe.</p>
+        </aside> 
+    
     </div>
-
-    <footer class="border-top mt-5 py-4 text-center text-muted small">
-      <p>&copy; 2020 My Site</p>
+    
+    <footer>
+        <p>&copy;2021- This is the footer</p>
     </footer>
-
-    <!-- JavaScript and dependencies -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
-  </body>
+    </div>
+</body>
 </html>
